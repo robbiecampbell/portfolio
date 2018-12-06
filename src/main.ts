@@ -3,6 +3,14 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
+import Buefy from "buefy";
+import "buefy/dist/buefy.css";
+
+// const VueParticles = require('vue-particles');
+import VueParticles from "vue-particles";
+
+Vue.use(Buefy);
+Vue.use(VueParticles);
 
 Vue.config.productionTip = false;
 
