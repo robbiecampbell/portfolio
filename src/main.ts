@@ -10,7 +10,6 @@ import "buefy/dist/buefy.css";
 import VueParticles from "vue-particles";
 
 Vue.use(Buefy);
-Vue.use(VueParticles);
 
 Vue.config.productionTip = false;
 

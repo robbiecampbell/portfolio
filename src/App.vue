@@ -5,9 +5,6 @@
       <router-link to="/about">About</router-link>
     </div> -->
     <router-view/>
-    <vue-particles color="#dedede">
-    </vue-particles>
-
   </div>
 </template>
 
@@ -18,9 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: url(assets/wood-1759566_1920.jpg);
   height: 100vh;
-  overflow-y: hidden;
 }
 #nav {
   padding: 30px;
