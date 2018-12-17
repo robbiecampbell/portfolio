@@ -1,12 +1,5 @@
 <template>
   <div>
-    <button class="button" @click="stick">
-      stick
-    </button>
-    <button class="button" @click="dealCards(currentPlayer)">
-      hit
-    </button>
-
     <div class="columns">
       <div class="column is-half is-offset-one-quarter">
         <div id="playersHand">
@@ -35,18 +28,6 @@
 
   </div>
 </template>
-  <!-- <div class="deck">
-    <div
-      v-for="card in deck"
-      :key="card.id"
-      class="card"
-      :class="suitColour[card.suit]">
-      <span class="cardSuit cardSuitTop">{{card.suit}}</span>
-      <span class="cardValue">{{card.value}}</span>
-      <span class="cardSuit cardSuitBottom">{{card.suit}}</span>
-    </div>
-  </div> -->
-
 <script lang="ts">
 import {Vue, Component} from 'vue-property-decorator';
 
